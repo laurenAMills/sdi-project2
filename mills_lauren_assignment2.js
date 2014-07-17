@@ -53,5 +53,12 @@ var exploringTime = function (totalFlightHours) {
 		}
 	};
 };
+// String Function
+var jetLag = function (currentCountry, travelTime) {
+	var mustSleep = "heads hits the pillow";
+	var hotelRoom = "W Hotel";
+	console.log ("After " +  travelTime + " hours of travel, we have arrived in " + currentCountry + " we will let our " + mustSleep + " in the amazing " + hotelRoom + " so that we can actually explore " + currentCountry + " with as little jet lag as possible");
+};
+
 
 
