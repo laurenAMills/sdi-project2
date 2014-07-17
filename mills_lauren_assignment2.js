@@ -60,5 +60,19 @@ var jetLag = function (currentCountry, travelTime) {
 	console.log ("After " +  travelTime + " hours of travel, we have arrived in " + currentCountry + " we will let our " + mustSleep + " in the amazing " + hotelRoom + " so that we can actually explore " + currentCountry + " with as little jet lag as possible");
 };
 
+// Array Function
+var exploring = function(numOfPlaces) {
+	var ourDestinations = ["Visit the Queens garden", "Floating Market", "Phuket", "Chaing Mai"];
+	console.log ("so that we can maximize our time and see" + numOfPlaces + " attractions today, we will use different modes of transportation");
+	for (var i = 0; i < ourDestinations.length; i++) {
+		console.log ("to get to " + ourDestinations[i] + " we will need to ride in a TokTok.");
+		};
+		return locations;
+};
 
+firstStop(country);
+whatToDo(spendingPerDay, numOfStops);
+exploringTime(hrOfTraveling);
+jetLag(country, hrOfTraveling);
+exploring(numOfStops);
 
