@@ -10,7 +10,7 @@ var daysTillVaca = 122;
 var spendingPerDay = 215;
 var numOfStops = 35;
 var locations = [
-				"Vietnam", 
+				"Vietnam",  
 				"Thailand", 
 				"Cambodia", 
 				"China"];
